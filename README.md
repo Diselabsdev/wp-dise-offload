@@ -23,7 +23,7 @@ DISE Offload is a powerful WordPress plugin that helps you optimize your website
 ## Requirements
 
 - WordPress 5.0 or higher
-- PHP 7.2 or higher
+- PHP 7.4 or higher
 - Composer (for installation)
 - Account with any supported cloud storage provider
 
@@ -40,6 +40,12 @@ DISE Offload is a powerful WordPress plugin that helps you optimize your website
    cd wp-dise-offload
    composer install
    ```
+   This will install all required dependencies:
+   - AWS SDK for PHP (for Amazon S3)
+   - Google Cloud Storage Client Library
+   - Azure Storage Blob SDK
+   - Alibaba Cloud OSS SDK
+   - Other development dependencies
 
 3. Activate the plugin through the WordPress admin interface.
 
